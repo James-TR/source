@@ -1,0 +1,20 @@
+--- a/tools/mkimage.h
++++ b/tools/mkimage.h
+@@ -21,6 +21,7 @@
+ #include <u-boot/sha1.h>
+ #include "fdt_host.h"
+ #include "imagetool.h"
++#include <sys/types.h>
+
+ #undef MKIMAGE_DEBUG
+
+--- a/tools/proftool.c
++++ b/tools/proftool.c
+@@ -16,6 +16,7 @@
+ #include <string.h>
+ #include <unistd.h>
+ #include <sys/param.h>
++#include <sys/types.h>
+
+ #include <compiler.h>
+ #include <trace.h>
